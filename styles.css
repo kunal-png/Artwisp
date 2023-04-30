@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bg-black{
+    background-color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+section{
+    background-color: #000000;
+}
+.header-container{
+    padding: 1vh;
+}
+.nav-link i {
+    color: white;
+}
+.icons{
+    margin-left:1.5rem;
+}
+#top-bar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#navigation ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 60%);
+    font-family: 'Playfair Display', serif;
+    font-size:1.5rem;
+    margin-left :3vw;
+    margin-right :3vw ;
+}
+#navigation{
+    padding: 1vw;
+}
+
+#navigation ul li a:hover{
+    color: rgba(0, 0, 0, 100%);
+    text-decoration: underline;
+    font-weight: 500;
+}
+#hero{
+    background-image: url("Images/Assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+}
+.hero-text-box{
+    padding: 2rem;
+}
+#herosub{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+#hero-heading{
+    font-family: 'Playfair Display', serif;
+    font-size: 6rem;
+}
+#hero-text{
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 30vw;
+   
+}
+#hero-button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 10px 25px 10px 25px;
+
+    border: none;
+}
+#hero-button i{
+    transform: rotate(-45deg);
+    margin-left: 20px;
+}
+.image-container{
+
+    width: 70vh;
+    height:60vh;
+}
+#hero-img-1{
+   
+    position: absolute;
+    z-index: 1;
+    height: 25rem;
+    margin-top: 10rem;
+    right: 10rem;
+    border: 5px solid #000000;
+    border-radius: 2rem;
+}
+#hero-img-2{
+    margin-left:2rem ;
+    height: 25rem;
+    position: absolute;
+    z-index: 2;
+    border: 5px solid #000000;
+    border-radius: 2rem;
+}
+#hero-img-1:hover{
+    z-index:3;
+}
+.section-header{
+    background-color: #000000;
+    padding: 2rem;
+}
+.section-header h1{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.section-header h3{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.item-expanded{
+    background-color: rgba(255, 0, 0, 0);
+    min-width: 2rem;
+    border-radius: 5%;
+   
+}
+.not-expanded{
+    background-color: blue;
+    width: auto;
+    border-radius: 5%;
+}
+#category{
+    margin-top: 20px;
+
+    height:25rem;
+  width: 200vw;
+}
+#Originals{
+    background-image: url(Images/Assets/Categories/mountain.png);
+}
+#prints{
+    background-image: url(Images/Assets/Categories/prints.png);
+}
+#digitals{
+    background-image: url(Images/Assets/Categories/digitals.png);
+}
+#sculptures{
+    image-resolution: auto;
+    background-image: url(Images/Assets/Categories/sculptures.png);
+}
+
+.about-image img{
+    width: 45rem;
+    margin: 5rem 0 0 10rem;
+}
+.About-text p{
+ 
+
+  
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: right;
+    
+    color: #FFFFFF;
+
+}
+footer{
+    background-color: black;
+    padding: 5rem;
+}
+#footer-logo{
+    margin-top: 5rem;
+    height: 5rem;
+    width: auto;
+
+}
+.social-icons{
+   width: 15vw;
+   margin:25px auto 50px auto;
+   color: rgba(255, 255, 255, 0.44);
+   
+}
+footer a {
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 30px;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+margin-top: 1.5rem;
+}
+.searchText{
+    color: #FFFFFF;
+    right: 200px;
+    border: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    background-color: black;
+}
+.Search-btn i{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.visible{
+    display: initial;
+}
+.invisible{
+    display: none;
+}
+.signUpPopup{
+    display: block;
+    width: 60vw;
+    margin: .5rem auto;
+    background: #FFFFFF;
+    border: 6px solid #000000;
+
+}
+.close-btn{
+    padding-top: 10px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background: #000000;
+    border: none;
+
+}
+.form-heading{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 2rem;
+color: #000000;
+}
+/* .form-label input{
+    width: 30vw;
+    padding: 5px; 
+    padding-left: 20px;
+    margin: 5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+
+border: 2px solid rgba(0, 0, 0, 0.4);
+border-radius: 6px;
+
+}
+.signUpPopup form input{
+   
+    width: 30vw;
+    color: #FFFFFF;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+} */
+/* form hr{
+    margin: 1rem auto;
+    width: 20vw;
+    border: 3px solid rgba(0, 0, 0, 0.4);
+    border-radius: 20rem;
+} */
+
+.container_or {
+    width: 20vw;
+    margin: 1rem auto;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  hr {
+    display: inline-block;
+    width: 40%;
+    margin: 0 5%;
+  }
+  p {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .social-login{
+    width: 30vw;
+    padding: 10px 20px ;
+    margin: 1rem auto;
+    border: 2px solid #000000;
+border-radius: 6px;
+background-color: white;
+  }
+  #bottom-form-text{
+    margin: 2rem;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+color: #000000;
+  }
+.page-heading{
+    margin: 5px auto;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  .product_card{
+    max-width:max-content;
+    background-color: black;
+    color: white;
+
+  }
+  .product_card:hover{
+    
+    background-color: rgb(42, 41, 41);
+ 
+
+  }
+  
+  .product_card img{
+    min-width: 18vw;
+    max-width: 18vw;
+    max-height: 20;
+    min-height: 10vh;
+  }
+  .card-title{
+    margin: 10px 0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 1.2rem;
+  }
+  .add-btn{
+    font-family: 'Inter';
+    font-style: normal;
+    background-color:white;
+    color: black;
+    border:none;
+  }
+  .add-btn:hover{
+    background-color: #000000;
+    color: white;
+    border: white 2px solid ;
+  }
+  #Admin-nav{
+    color: #FFFFFF;
+    margin-right: 10vw;
+   
+  }
+  #Admin-nav ul li{
+    list-style: none;
+    margin: 1rem;
+  }
+  #Admin-nav ul li a{
+    list-style: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  #Admin-nav ul li a:hover{
+    color: rgb(24, 174, 224);
+  
+  }
+ .main-body{
+    width: 80rem;}
+ .f-label {
+    color:white;  font-family: 'Inter';font-style: normal;font-size: 1.3rem;
+ }
+/* .Search-btn{
+    color: #000000;
+    padding: 1rem;
+ } */
+ .new_art :hover{
+   border: #FFFFFF 2px solid;
+   border-radius: 8%;
+ }
+ /* explore */
+.card-body div h2{
+    color: white;
+}
